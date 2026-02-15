@@ -114,7 +114,6 @@ export const CustomNode = memo(({ data, selected }: CustomNodeProps) => {
             onChange={handleNoteChange}
             onBlur={handleBlur}
             onKeyDown={handleKeyDown}
-            onDoubleClick={handleDoubleClick}
             className={styles.noteInput}
             onClick={(e) => e.stopPropagation()}
           />
