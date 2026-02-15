@@ -1,0 +1,42 @@
+.panel {
+  top: 16px;
+  right: 16px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.button {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: #374151;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.button:hover {
+  background: #F3F4F6;
+  color: #111827;
+}
+
+.button:active {
+  background: #E5E7EB;
+}
+
+.divider {
+  width: 1px;
+  height: 20px;
+  background: #E5E7EB;
+}
